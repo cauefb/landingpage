@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+.img{
+     height: 90vh;
+    /* width:70%; */
+    /* display:flex; 
+    align-items: center; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+     background-image:linear-gradient(to right,rgb(196, 184, 27), black); 
+     
+}
+.div-flex{
+     display:flex; 
+     /* border: 2px solid black; */
+     align-items: center;
+     justify-content:center;
+}
+
+ .section-logo{
+    height: 91vh;
+    /* width:100%; */
+    /* border: 2px solid black; */
+} 
+.card-container{
+    display: flex;
+     background-color: #fff;
+    border-radius:25px;
+    padding:25px;
+    max-width: 300px;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-form{
+      /* width: 100vw; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* border: 2px solid black; */
+  
+}
+#content{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+#content>p{ 
+     color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.title{
+     display: flex;
+    text-align: center; 
+    color:#ddd;
+    font-family: 'Noto Sans', sans-serif;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#nome,#email{
+    border: 2px solid #ddd;
+    height: 1.5rem;
+     margin: 10px;
+    padding: 5px;
+    border-radius: .25rem ;
+    align-items: center;
+    
+     width:90%;
+    
+}
+
+#button{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    height: 1.7rem;
+    /* border: 1px solid #000000; */
+  background: #000000;
+   margin: 10px -7px 10px 10px;
+    padding: 10px 5px 30px 5px;;
+  color: #fff;
+  border-radius: .25rem ;
+  width:91%;
+  align-items: center;
+  
+}
+#aviso{
+    color: #fff;
+}
+#div-form{
+    maxwidth:450px;
+}
+
+.div-flex{
+    display:flex;
+}
+#form{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer{
+    height:40px;
+    padding:25px;
+    text-align:center;
+    background-color:#000;
+    color:#fff;
+
+}
+
+@media screen AND (max-width: 721px) {
+    
+    .img{
+     height: 100%;
+     
+     display:flex; 
+    
+}
+ .section-logo{
+    height: 50vh;
+    width:100%;
+   
+} 
+   #content>p{ 
+       display:flex;
+     color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    padding: 32px;
+    justify-content: center;
+    text-align: center;
+}
+
+  .div-flex{
+     display:block; 
+     /* border: 2px solid black; */
+     justify-content: space-between;
+}
+
+    
+}
